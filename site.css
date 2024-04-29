@@ -1,0 +1,110 @@
+body {
+
+    background: #ccccff;
+    text-align: center;
+}
+
+nav {
+        background-color:  #000033;
+        color: #ccccff;
+        padding: 5px;
+        text-align: center;
+}
+    
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+    
+nav li {
+        float: left;
+}
+    
+nav li a {
+        display: block;
+        color: #ccccff;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+}
+    
+nav li a:hover {
+        background-color: #111;
+}
+
+h1 {
+    background-color: #000066;
+    color: #ccccff;
+    height: 35px;
+    padding-top: 10px;
+}
+
+h2 {
+    background-color: #000066;
+    color: #ccccff; 
+    padding-top: 10px;
+    height: 35px;
+}
+
+p {
+    font-size: 17px;
+}
+form {
+    background-color: #000066;
+    width: 380px;
+    height: 190px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 26px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+    border-radius: 25px;
+    background-color: #ccccff;
+
+
+}
+
+button{
+    background: #000033;
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 25px;
+    color: #ccccff;
+}
+.carousel-images {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+
+  .carousel-images img {
+    width: 20%;
+    height: auto;
+  }
+  
+footer {
+        background-color: #000033;
+        color: #ccccff;
+        padding: 50px;
+        text-align: center;
+        margin-top: 50px;
+}

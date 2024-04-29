@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <head>
+        <title> Salão da May </title>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head> 
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <section id="inicio">
+        <header>
+            <h1>Salão da May</h1>
+        </header>
+        </section>
+        <h3>Bem vindo(a)!</h3>
+        <p>Faça seu cadastro, por gentileza:</p>
+        <form action="processar_formulario.php" method="post">
+        <input placeholder="Nome"/>
+        <input placeholder="E-mail"/>
+        <input placeholder="O que deseja?"/>
+        <button>Enviar</button>
+        </form>
+
+        <section id="sobre">
+        <h2>Sobre o Salão da May</h2>
+        <p>Localizado no centro de Curitiba o <strong>Salão da may</strong> fornece o que há de melhor para suas clientes. Fundado em 2023 o Salão da May já é destaque na cidade e conquista novas clientes diariamente.</p>
+        <p>Nosso objetivo: <em><strong> "Proporcionar auto-estima e qualidade de vida as nossas clientes".</strong></em></p>
+        <p>Oferecemos profissionais qualificados e antenados ao mudo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação das nossas clientes.</p>
+       
+        <h3>Nosso espaço/trabalho:</h3>
+        <div class="carousel">
+            <div class="carousel-images">
+              <img src="https://images.adsttc.com/media/images/6013/8f05/f91c/8125/1500/02d2/large_jpg/Roby_Salao_Beleza-3774.jpg?1611894525" alt="Nosso espaço">
+              <img src="https://moda20.com.br/wp-content/uploads/2022/10/Dicas-de-Mulher-1-1.jpg" alt="Maquiagens">
+              <img src="https://www.oibonita.com.br/wp-content/uploads/2020/01/cabelos-com-luzes-25.jpg" alt="Cabelos">
+              <img src="https://unhasamei.com/wp-content/uploads/2022/09/Unhas-decoradas-2023-56-700x929.jpg" alt="Manicure">
+            </div>
+            <button class="prev" onclick="prevSlide()">Anterior</button>
+            <button class="next" onclick="nextSlide()">Próxima</button>
+        </div>
+        </section>
+
+        <section id="contato">
+        <h3>Entre em contato:</h3>
+        <a href="mailto:mayara.tsuchida@escola.pr.gov.br">
+        <button> E-mail </button>
+        </a>
+        <a href="mailto:https://www.instagram.com/tsuchida_may?igsh=MXR5aWY4ZDM5bmowdw%3D%3D&utm_source=qr">
+        <button> Instagram </button>
+        </a>
+        <a href="mailto:https://api.whatsapp.com/send?phone=5541996657606">
+        <button> WhatsApp </button>
+        </a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Salão da May</p>
+        </footer>
+
+    </body>
+
+
+
+
+</html>
